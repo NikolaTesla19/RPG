@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Valium";
+  src: url("fonts/valium.ttf");
+}
+
+body{
+  overflow: hidden;
+  background-color: black;
+  margin: 1px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.darkness{
+  width: calc(100vw + 1px);
+  height: calc(100vh + 1px);
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  z-index: 5;
+  display: none;
+}
+.exitButton{
+  width: 40px;
+  height: 40px;
+  border: 2px solid red;
+  border-radius: 3px;
+  position: absolute;
+  top: 10%;
+  left: 95%;
+  cursor: pointer;
+}
+
+.plaseForName{
+  width: 150px;
+  height: max-content;
+  position: absolute;
+  left: -50px;
+  top: -40px;
+}
+.heroesName{
+  text-align: center;
+  font-family: "Valium";
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  color: red;
+}
+.mainMap{
+  width: 2500px;
+  height: 2500px;
+  position: absolute;
+}
+.chanck{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.chanck img{
+  width: 100%;
+  height: 100%;
+}
+.hero{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: url(../img/hero1.png);
+  z-index: 3;
+}
+.grass{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.tree{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.house{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.fence{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.water{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.enemySkelet{
+  width: 180px;
+  height: 160px;
+  position: absolute;
+  background-color: red;
+  z-index: 2;
+}
+.heroHP{
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  left: -25px;
+  top: -10px;
+  background-color: black;
+}
+.hpNow{
+  background-color: red;
+  height: 10px;
+}
+.enemyHPNow{
+  background-color: red;
+  height: 10px;
+}
+.enemyHP{
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  background-color: black;
+  display: none;
+}
+.dead{
+  text-align: center;
+  font-family: "Valium";
+  font-size: 300px;
+  text-align: center;
+  margin: 0;
+  color: red;
+  position: absolute;
+  top: calc(50% - 0.5em);
+  left: calc(50% - 700px);
+}

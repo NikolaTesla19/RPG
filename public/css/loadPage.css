@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "Valium";
+  src: url("fonts/valium.ttf");
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.background{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.background img{
+  height: 100%;
+}
+.loadMenu{
+  width: max-content;
+  height: max-content;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  transform: translate(0, -50%)
+}
+.loadMenuP{
+  text-align: center;
+  font-family: "Valium";
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 50px;
+  color: red;
+  cursor: pointer;
+}
+.enterButton{
+  font-family: "Valium";
+  width: 200px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.enterInputs{
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-size: 30px;
+  font-family: "Valium";
+  color: red;
+  background-color: gray;
+  border: none;
+  margin-bottom: 20px;
+  display: block;
+}
+.enterInputs:focus{
+  outline: 1px solid rgb(110, 0, 0);
+  background-color: rgb(173, 173, 173);
+}
+.loadMessage{
+  width: 360px;
+  height: max-content;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 200px;
+}
+
+.mainText{
+  text-align: center;
+  font-family: "Valium";
+  font-size: 40px;
+  margin: 0;
+  color: red;
+}
+.chooseHeroDiv{
+  width: 600px;
+  height: max-content;
+  background: black;
+  border-radius: 10px;
+  position: absolute;
+  top: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left: calc(50% - 300px);
+}
+#userName{
+  width: max-content;
+  height: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.createHeroButton{
+  font-family: "Valium";
+  width: 300px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.createHeroDiv{
+  width: 720px;
+  height: max-content;
+  background: black;
+  border-radius: 10px;
+  position: absolute;
+  top: 200px;
+  padding: 40px;
+  left: calc(50% - 400px);
+}
+.createHeroModel{
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menuOfClasses{
+  margin-left: 40px;
+  width: 376px;
+  height: 300px;
+  background-color: green;
+  display: inline-block;
+}
+.nameHeroInput{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 250px;
+  font-size: 30px;
+  font-family: "Valium";
+  color: red;
+  background-color: gray;
+  border: none;
+  display: block;
+}
+.nameHeroInput:focus{
+  outline: 1px solid rgb(110, 0, 0);
+  background-color: rgb(173, 173, 173);
+}
+.nameOfHeroText{
+  text-align: center;
+  font-family: "Valium";
+  font-size: 40px;
+  margin: 0;
+  color: red;
+  margin-top: 20px;
+}
+.ExitButton{
+  font-family: "Valium";
+  width: 300px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.createHeroMessage{
+  width: 360px;
+  height: max-content;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 50px;
+}
+.heroDiv{
+  width: 500px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.prewPhoto{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 30px;
+}
+.heroInfo{
+  width: 360px;
+  height: 100px;
+  float: left;
+}
+.selectHeroDiv{
+  border: 3px solid red;
+}
+.chooseButtons{
+  font-family: "Valium";
+  width: 200px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  cursor: pointer;
+}
+#chooseButtons{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  margin-left: 100px;
+}
